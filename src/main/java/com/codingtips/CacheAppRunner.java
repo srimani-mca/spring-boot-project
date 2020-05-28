@@ -14,6 +14,7 @@ public class CacheAppRunner implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		System.out.println("*** AppRunner::run() method called ***");
+		System.out.println("run sucessfully");
 	}
 
 }
