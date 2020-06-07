@@ -11,6 +11,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
+		System.out.println("hello world");
 	}
 
 	@Bean
@@ -22,4 +23,5 @@ public class Application {
 	ApplicationRunner appRunner() {
 		return args -> System.out.println("apprunner:run() method");
 	}
+	
 }
